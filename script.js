@@ -77,4 +77,5 @@ restart.addEventListener("click", () => {
 
 reset.addEventListener("click", () => {
   setLocalStorage(0, 0);
+  location.reload();
 });
